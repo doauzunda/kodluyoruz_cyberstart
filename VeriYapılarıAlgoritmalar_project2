@@ -1,0 +1,12 @@
+[16, 21, 11, 8, 12, 22] merge sort yöntemine göre aşamaları;
+  sürekli 2 ye ayırarak, en sonda da her bir sayıyı yalnız bırakarak ilerlenir. bu işlem tamamlandıktan sonra, işlem reverse şekilde gerçekleştirilirken sayılar küçükten büyüğe sıralanır
+  
+  1. Adım = [16, 21, 11] ve [8, 12, 22]
+  2. Adım = [16, 21] ve [11] - [8, 12] ve [22]
+  3. Adım = [16] ve [21] ve [11] - [8] ve [12] ve [22]
+reverse kısmı başlangıcı
+  4. Adım = [16, 21] ve [11] - [8, 12] ve [22]
+  5. Adım = [11, 16, 21] - [8, 12, 22]
+  6. Adım = [8, 11, 12, 16, 21, 22]
+
+Big-O gösterimi = O(nlogn)
